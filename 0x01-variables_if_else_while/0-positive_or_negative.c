@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <time.h>
-/*more headers goes there */
 #include <stdlib.h>
-/* betty sytle doc for function main goes there */
+
+
 /**
  * main - main function
  *
@@ -14,16 +14,22 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-
-	printf("The number %d is ", n);
-
+	/* your code goes here */
 	if (n > 0)
-		printf("%d is positive", n);
+		/*print positive number if n > 0*/
+	{
+		printf("%d is positive/n", n);
+	}
 	else if (n == 0)
-		printf("%d is zero", n);
+		/*prints zero if number is = 0*/
+	{
+		printf("%d is zero/n", n);
+	}
 	else
-		printf("%d is negative", n);
-	printf("\n");
+		/*prints negative number if n is < 0*/
+	{
+		printf("%d is negative/n", n);
+	}
+	
 	return (0);
 }
