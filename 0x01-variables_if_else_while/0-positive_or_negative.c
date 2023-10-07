@@ -20,16 +20,16 @@ int main(void)
 	{
 		printf("%d is positive/n", n);
 	}
-	else if (n == 0)
-		/*prints zero if number is = 0*/
-	{
-		printf("%d is zero/n", n);
-	}
-	else
-		/*prints negative number if n is < 0*/
+	else if (n < 0)
+		/*prints negative number if n < 0*/
 	{
 		printf("%d is negative/n", n);
 	}
-	
+	else
+		/*prints zero*/
+	{
+		printf("%d is zero/n", n);
+	}
+
 	return (0);
 }
