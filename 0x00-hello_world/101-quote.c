@@ -1,35 +1,14 @@
+#include <stdio.h>
 #include <unistd.h>
 
-int echo_err(const char *s);
-int _len(const char *s);
-
 /**
- * main - driver
- *
- * Return: 1
- */
+* main - Entry point
+*
+* Return: Always 1 (Success)
+*/
 int main(void)
 {
-	echo_err("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
-
+	write(2,
+	"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
-}
-
-int _len(const char *s)
-{
-	int i = 0;
-
-	for (; *s; s++, i++)
-		;
-	return (i);
- * echo_err - send text to standard error (stderr)
- 
-int echo_err(const char *s)
-{
-	int i = _len(s);
-
-	write(2, s, i);
-	write(2, "\n", 1);
-
-	return (i);
 }
