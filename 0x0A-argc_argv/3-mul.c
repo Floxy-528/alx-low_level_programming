@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
+
 /**
  * main - print that add positive number and print results on conditions
  * @argc: number of command line arguments
