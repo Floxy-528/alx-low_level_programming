@@ -3,7 +3,7 @@
 /**
  * file: 0-object_like_macro.h
  *
- * desc: header file 
+ * desc: header file
  */
 #define SIZE 1024
 #endif
