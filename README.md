@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Singly Linked Lists in C
 Overview
 This project repository contains implementations and solutions related to Singly Linked Lists in the C programming language. The main focus of this project is to understand, implement, and utilize the concepts and operations associated with singly linked lists.
@@ -24,3 +25,6 @@ This project repository contains implementations and solutions related to Singly
 - `1-delete_node.c`: Functions to delete nodes from the linked list.
 - `2-print_list.c`: Functions to print the linked list.
 - `3-main.c`: Example `main.c` file (not required to push).
+=======
+Structures, typedef
+>>>>>>> 8a6060190903a05566969e84d67a8bdfc952752a
